@@ -1,0 +1,26 @@
+{
+	"name": "TheEPI",
+	"slug": "theepi",
+	"version": "0.7.0",
+	"description": "L'application TheEPI",
+	"insert_scripts_pages_js": [
+		"theepi",
+		"theepi-setting"
+	],
+	"insert_scripts_pages_css": [
+		"theepi",
+		"theepi-setting"
+	],
+	"externals": [],
+	"modules": [
+		"core/core.config.json",
+		"modules/avatar/avatar.config.json",
+		"modules/control/control.config.json",
+		"modules/epi/epi.config.json",
+		"modules/qrcode/qrcode.config.json",
+		"modules/service/service.config.json",
+		"modules/setting/setting.config.json"
+	],
+	"debug": false,
+	"core_option": "_theepi_core"
+}
